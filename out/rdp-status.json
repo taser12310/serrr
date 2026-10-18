@@ -1,42 +1,42 @@
 {
   "active": true,
-  "hostname": "rdpfree-7",
-  "os": "Microsoft Windows Server 2025 Datacenter",
-  "os_build": "10.0.26100",
+  "hostname": "rdpfree-8",
+  "os": "Microsoft Windows Server 2022 Datacenter",
+  "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
     "ram_gb": 16.0,
-    "disk_free_gb": 31.2,
-    "cpu_threads": 4
+    "cpu_threads": 4,
+    "disk_free_gb": 82.9
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-18T14:46:54Z",
-  "expires_at": "2026-10-18T20:28:54Z",
+  "started_at": "2026-10-18T15:00:37Z",
+  "expires_at": "2026-10-18T20:42:37Z",
   "duration_menit": 342,
-  "run_id": "39137491114",
+  "run_id": "39138492737",
   "run_attempt": "1",
-  "run_number": "7",
-  "run_url": "https://github.com/taser12310/serrr/actions/runs/39137491114",
+  "run_number": "8",
+  "run_url": "https://github.com/taser12310/serrr/actions/runs/39138492737",
   "mode": "bersih+win10",
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "magicdns": "rdpfree-7.tailbc0a23.ts.net.",
-      "ip": "100.86.85.76",
-      "status": "ok",
+      "hostname": "rdpfree-8",
+      "magicdns": "rdpfree-8.tailbc0a23.ts.net.",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "hostname": "rdpfree-7"
+      "status": "ok",
+      "ip": "100.86.85.76"
     },
     "tunnel": {
-      "status": "ok",
+      "address": "100.86.85.76:3389",
+      "port": 3389,
+      "outside": "tailscale",
       "selftest": "ok",
       "host": "100.86.85.76",
-      "address": "100.86.85.76:3389",
-      "outside": "tailscale",
-      "port": 3389
+      "status": "ok"
     }
   }
 }
