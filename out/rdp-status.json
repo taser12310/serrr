@@ -1,0 +1,42 @@
+{
+  "active": true,
+  "hostname": "rdpfree-2",
+  "os": "Microsoft Windows Server 2022 Datacenter",
+  "os_build": "10.0.20348",
+  "os_style": "Native Windows",
+  "hardware": {
+    "cpu_threads": 4,
+    "disk_free_gb": 82.9,
+    "ram_gb": 16.0
+  },
+  "rdp_port": 3389,
+  "rdp_user": "serrrr",
+  "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
+  "rdp_denyts": true,
+  "started_at": "2026-10-18T13:40:12Z",
+  "expires_at": "2026-10-18T19:22:12Z",
+  "duration_menit": 342,
+  "run_id": "39132522920",
+  "run_attempt": "1",
+  "run_number": "2",
+  "run_url": "https://github.com/taser12310/serrr/actions/runs/39132522920",
+  "mode": "bersih+win10",
+  "akses": {
+    "mode": "tailscale",
+    "tunnel": {
+      "port": 3389,
+      "selftest": "ok",
+      "host": "100.82.154.8",
+      "address": "100.82.154.8:3389",
+      "status": "ok",
+      "outside": "tailscale"
+    },
+    "tailscale": {
+      "ip": "100.82.154.8",
+      "status": "ok",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "magicdns": "rdpfree-2.tailbc0a23.ts.net.",
+      "hostname": "rdpfree-2"
+    }
+  }
+}
