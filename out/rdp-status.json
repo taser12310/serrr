@@ -1,108 +1,42 @@
 {
   "active": true,
-  "hostname": "rdpfree-12",
+  "hostname": "rdpfree-13",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "ram_gb": 16.0,
+    "disk_free_gb": 82.9,
     "cpu_threads": 4,
-    "disk_free_gb": 82.7
+    "ram_gb": 16.0
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-19T13:40:47Z",
-  "expires_at": "2026-10-19T19:22:47Z",
+  "started_at": "2026-10-19T14:07:28Z",
+  "expires_at": "2026-10-19T19:49:28Z",
   "duration_menit": 342,
-  "run_id": "39261933497",
+  "run_id": "39266036830",
   "run_attempt": "1",
-  "run_number": "12",
-  "run_url": "https://github.com/taser12310/serrr/actions/runs/39261933497",
+  "run_number": "13",
+  "run_url": "https://github.com/taser12310/serrr/actions/runs/39266036830",
   "mode": "bersih+win10",
   "akses": {
-    "tunnel": {
-      "host": "100.124.217.85",
+    "tailscale": {
       "status": "ok",
-      "outside": "tailscale",
-      "address": "100.124.217.85:3389",
-      "port": 3389,
-      "selftest": "ok"
+      "magicdns": "rdpfree-13.tailbc0a23.ts.net.",
+      "ip": "100.86.85.76",
+      "hostname": "rdpfree-13",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
     },
     "mode": "tailscale",
-    "tailscale": {
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "ip": "100.124.217.85",
-      "hostname": "rdpfree-12",
-      "magicdns": "rdpfree-12.tailbc0a23.ts.net.",
-      "status": "ok"
+    "tunnel": {
+      "outside": "tailscale",
+      "address": "100.86.85.76:3389",
+      "status": "ok",
+      "host": "100.86.85.76",
+      "selftest": "ok",
+      "port": 3389
     }
-  },
-  "win10": {
-    "look": "ok",
-    "badge": "ok",
-    "wallpaper": "ok",
-    "search": "ok",
-    "os": "Microsoft Windows Server 2022 Datacenter",
-    "note": "Tampilan Windows 10 (UI Windows Server 2022 = kernel/UI Windows 10 21H2)"
-  },
-  "media": {
-    "audio_output": "rdp_playback_enabled",
-    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
-    "microphone": "rdp_capture_enabled",
-    "wallpaper": "xyverse_configured_for_user_logon"
-  },
-  "xydesk": {
-    "host": "ok",
-    "denyts": "ok",
-    "multisession": "ok",
-    "avc444": "ok (120FPS DWMFRAMEINTERVAL=8 + TCPNoDelay=1)",
-    "fontsmoothing": "ok (ClearType profil Default)",
-    "audio_out": "ok (policy fDisableAudio=0, WinStations=0)",
-    "audio_mic": "ok (policy fDisableAudioCapture=0, WinStations=0) - mic HP redirect aktif, Allow di HP",
-    "wallpaper_rdp": "ok (policy fNoRemoteDesktopWallpaper=0) - wallpaper RDP tampil, cek client Experience→Wallpaper ON",
-    "firewall": "tcp3389=True udp3389=True udp4433=True",
-    "services": "ok",
-    "rdp_ready": "127.0.0.1 (handshake OK)",
-    "rdp_probe": "awal=True multi=True audio=True grafis=True clear=True fw=True svc=True",
-    "quic_udp4433": "dibuka di VM (tidak lewat tunnel TCP)",
-    "akses": "(menyusul)",
-    "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
-  },
-  "grafis": {
-    "mode": "mesa-d3d12-opengl46",
-    "path": "C:\\XyRDP\\grafis\\mesa-x64"
-  },
-  "extras": {
-    "lightshot": "ok",
-    "wallpaper": "ok",
-    "wallpaper_file": "wallpaper.jpg",
-    "vscode": "skip",
-    "notepadpp": "skip",
-    "admin": true
-  },
-  "storage": {
-    "boost": "ok",
-    "before_gb": 82.06,
-    "after_gb": 106.25,
-    "gained_gb": 24.19,
-    "removed_targets": 19,
-    "drives": [
-      {
-        "letter": "C",
-        "used_gb": 149.2,
-        "size_gb": 255.45,
-        "free_gb": 106.25
-      },
-      {
-        "letter": "D",
-        "used_gb": 3.0,
-        "size_gb": 150.0,
-        "free_gb": 146.99
-      }
-    ],
-    "game_dir": "D:\\Games (disarankan untuk GTA)",
-    "note": "Cleanup selesai. gained_gb adalah perubahan ruang aktual, bukan kapasitas yang dijanjikan. Target terkunci bisa tersisa."
   }
 }
